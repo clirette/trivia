@@ -24,4 +24,4 @@ Player dashboard view in between rounds
 <img src="./mockup/trivia-player-dashboard.png" height="800">
 
 Player Scoreboard
-![](mockup/trivia-scoreboard.png)
+<img src="mockup/trivia-scoreboard.png" height="800">
