@@ -21,7 +21,9 @@ The purpose of this app is to provide a web portal to trivia hosts with tools fo
 
 ## Mockups
 Player dashboard view in between rounds
+</br>
 <img src="./mockup/trivia-player-dashboard.png" height="800">
 
 Player Scoreboard
+</br>
 <img src="mockup/trivia-scoreboard.png" height="800">
