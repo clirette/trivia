@@ -18,3 +18,10 @@ The purpose of this app is to provide a web portal to trivia hosts with tools fo
 3. Round ends. Host grades submissions for the round. Multiple choice and possibly other questions types can be auto graded.
     1. Once scores are released for the round, teams can view their standings on the scoreboard. Possible to have a graph or other animated view for scores.
     2. Host reviews questions for next round and can make adjustments before starting if needed.
+
+## Mockups
+Player dashboard view in between rounds
+![](mockup/trivia-player-dashboard.png)
+
+Player Scoreboard
+![](mockup/trivia-scoreboard.png)
