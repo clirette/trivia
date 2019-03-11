@@ -1,0 +1,30 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "Unamed trivia app using https://opentdb.com/api_config.php API",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "he": "^1.2.0",
+    "mongoose": "^5.4.18",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clirette/trivia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clirette/trivia/issues"
+  },
+  "homepage": "https://github.com/clirette/trivia#readme"
+}
