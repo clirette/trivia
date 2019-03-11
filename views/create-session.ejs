@@ -1,0 +1,16 @@
+<% include ./partials/header %>
+  <div class="container">
+    <h1>Create Trivia Session</h1>
+    <form action="/api/session/create-session" method="POST">
+      <div class="form-group">
+        <label for="session-name">Session Name</label>
+        <input type="text" name="sessionName" id="session-name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="number-rounds">Number of Rounds</label>
+        <input type="number" name="numberOfRounds" id="number-rounds" class="form-control">
+      </div>
+      <div class="round-info"></div>
+    </form>
+  </div>
+<% include ./partials/footer %>
