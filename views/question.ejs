@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="question-wrapper">
+    <h3>Category: <%= question.category %></h3>
+    <h3>Difficulty: <%= question.difficulty %></h3>
+    <h1>Question: <%= question.question %></h1>
+    <select name="answers" id="answers">
+      <% answers.forEach(answer => { %>
+        <option value="<%= answer %>"><%= answer %></option>
+      <% }) %>
+    </select>
+    <button id="submit">Submit</button>
+    <div class="wrong"></div>
+  </div>
+  <script>
+    const submitButton = document.getElementById('submit');
+    const questionWrapper = document.querySelector('.question-wrapper');
+    const wrongDiv = document.querySelector('.wrong');
+    submitButton.addEventListener('click', () => {
+      const selectedAnswer = document.getElementById('answers').value;
+      const correctAnswer = "<%= correctAnswer %>";
+      if (correctAnswer == selectedAnswer) {
+        questionWrapper.innerHTML = `<h1>Correct!</h1>
+        <a href="http://localhost:8000/question">Next Question</a>`
+      } else {
+        wrongDiv.innerHTML = `<h2>${selectedAnswer} is incorrect!</h2>`;
+      }
+    });
+  </script>
+</body>
+</html>

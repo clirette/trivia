@@ -4,6 +4,7 @@
   "description": "Unamed trivia app using https://opentdb.com/api_config.php API",
   "main": "app.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "he": "^1.2.0",
